@@ -1,0 +1,267 @@
+
+                    /* COMMON STYLES */
+/* Tags */
+body{
+    overflow: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+
+/* Id's */
+#right_icon-left_side{
+    position: absolute;
+    width: 249.42px;
+    height: 186.18px;
+    left: 5%;
+    top: 75%;
+}
+
+#right_icon-right_side{
+    position: absolute;
+    width: 249.42px;
+    height: 186.18px;
+    right: 5%;
+    top: 75%;
+}
+
+#answer-page-img{
+    width: 600px;
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+}
+
+#answerOrWrong-page-head{
+    font-size: 40px;
+    margin-left: 80px;
+}
+
+                    /* PAGE 1 */
+/* Tags */
+
+h1{
+
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 46px;
+    text-align: center;
+
+    background: linear-gradient(180deg, #C60000 0%, rgba(255, 44, 44, 0.609375) 39.06%, #FF8D00 91.15%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -text-fill-color: transparent;
+
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Id's */
+
+#page1-body{
+    background-image: url(images/toy\ story\ 1.png);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
+
+                    /* PAGE 2 */
+
+/* Id's */
+
+#page2-1st-img{
+    width: 20%;
+}
+
+#page2-button-desc{
+    position: absolute;
+    width: 856px;
+    height: 506px;
+    left: 20%;
+    top: 60%;
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+
+    color: #000000;
+}
+
+#page2-main-p{
+    position: absolute;
+    width: 60%;
+    height: 1328px;
+    left: 30%;
+    top: 0;
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+
+    color: #000000;
+}
+
+
+                    /* PAGE 3 */
+
+/* Id's */
+
+#main-text-addition{
+    position: absolute;
+    width: 2644px;
+    height: 640px;
+    left: calc(50% - 2644px/2);
+    top: calc(50% - 720px/2);
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-size: 100px;
+    font-weight: 400;
+    text-align: center;
+    text-decoration-line: underline;
+
+    color: #FF0000;
+}
+
+#page3-button-desc{
+    position: absolute;
+    width: 856px;
+    height: 506px;
+    right: -5%;
+    top: 65%;
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+
+    color: #FF0000;
+}
+
+                    /* PAGE 4 */
+
+/* Id's */
+
+#q1-head{
+    position: relative;
+    width: 2096px;
+    height: 182px;
+    padding-left: 80px;
+    margin-top: 80px;
+    margin-bottom: 0px;
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 94px;
+
+    color: #000000;
+}
+
+#q1-body{
+    position: relative;
+    height: 182px;
+    padding-left: 80px;
+    margin-top: 0px;
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+
+    color: #000000;
+}
+
+#container{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+/* Classes */
+
+.div-tile {
+    background-image: url(images/answer_tile.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 280px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.one, .two, .three, .four{
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+
+    color: #FFFFFF;
+}
+
+                    /* PAGE 5 */
+
+/* Id's */
+
+#container-page5{
+    width: 50%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+/* CLASSES */
+
+.style-for-tile{
+    display: flex;
+    justify-content: space-around;
+}
+
+.q2-page-img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 400px;
+}
+
+                    /* WRONG PAGE 1 */
+
+/* Id's */
+
+#try-again{
+    position: absolute;
+    width: 856px;
+    height: 506px;
+    left: 10%;
+    top: 60%;
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+
+    color: #000000;
+}
+
+#try-again-last{
+    position: absolute;
+    right: 10%;
+    bottom: 10%;
+
+    font-family: 'Iceland';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+
+    color: #000000;
+}
